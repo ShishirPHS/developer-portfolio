@@ -62,6 +62,7 @@ nav li a {
   background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
+  padding-top: 50px;
 }
 
 /* banner related styles */
@@ -100,23 +101,34 @@ nav li a {
 
 /* main section styles */
 
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* about section styles */
 
 .about {
   border-radius: 10px;
   background: #fff8f3;
   padding: 130px;
-  margin: 130px 200px;
+  margin: 130px 0;
 }
 
-.about .section-title {
+.about .title-and-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about .title-and-description .section-title {
   color: #181818;
   text-align: center;
   font-size: 35px;
   font-weight: 700;
 }
 
-.about .section-description {
+.about .title-and-description .section-description {
   color: #757575;
   text-align: center;
   font-size: 18px;
@@ -124,4 +136,27 @@ nav li a {
   line-height: 30px;
   margin: 30px 0 30px;
   width: 827px;
+}
+
+.about .about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about .about-info-container .about-info {
+  text-align: center;
+}
+
+.about .about-info-container .about-info .info-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about .about-info-container .about-info .info-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
 }
