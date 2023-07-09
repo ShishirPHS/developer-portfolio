@@ -22,6 +22,10 @@ body {
   padding: 18px 35px;
 }
 
+.btn-primary i {
+  margin-right: 10px;
+}
+
 .section-title {
   color: #181818;
   text-align: center;
@@ -74,13 +78,12 @@ nav li a {
 
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, left top;
   padding-top: 50px;
 }
-
-/* banner related styles */
 
 .banner {
   padding: 30px 30px 0px 200px;
