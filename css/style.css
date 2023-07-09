@@ -269,3 +269,55 @@ main {
   width: 1140px;
   margin: 0 auto;
 }
+
+.footer-column {
+  width: 50%;
+}
+
+.footer-column .section-title {
+  text-align: left;
+}
+
+.footer-column .section-description {
+  width: 562px;
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin: 20px 0 30px;
+}
+
+.footer-container .right {
+  padding-left: 117px;
+}
+
+.social-links a {
+  margin-right: 24px;
+}
+
+.social-links a:last-child {
+  margin-right: 0;
+}
+
+.footer-form {
+  margin-top: 28px;
+}
+
+.footer-form input[type="text"],
+.footer-form input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  border: 0;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.footer-form input[type="text"]:focus,
+.footer-form input[type="email"]:focus,
+textarea:focus {
+  outline: 0;
+}
