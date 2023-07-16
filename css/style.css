@@ -324,3 +324,32 @@ textarea {
 textarea:focus {
   outline: 0;
 }
+
+/* responsive styles */
+@media screen and (max-width: 576.98px) {
+  .hide {
+    display: none;
+  }
+  .what-i-do .skills-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .what-i-do .section-description {
+    width: auto;
+    padding: 0 20px;
+  }
+
+  .what-i-do .skills-container .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .what-i-do .skills-container .skill .skill-description {
+    text-align: center;
+    width: auto;
+  }
+}
