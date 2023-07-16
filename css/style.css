@@ -325,7 +325,7 @@ textarea:focus {
   outline: 0;
 }
 
-/* responsive styles */
+/* responsive styles for extra small device */
 @media screen and (max-width: 576.98px) {
   .hide {
     display: none;
@@ -350,6 +350,29 @@ textarea:focus {
 
   .what-i-do .skills-container .skill .skill-description {
     text-align: center;
+    width: auto;
+  }
+}
+
+/* responsive styles for medium device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .hide {
+    display: none;
+  }
+
+  .what-i-do .section-description {
+    width: auto;
+    padding: 0 30px;
+  }
+
+  .what-i-do .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .what-i-do .skills-container .skill .skill-description {
     width: auto;
   }
 }
